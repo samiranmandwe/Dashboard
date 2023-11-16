@@ -1,0 +1,17 @@
+.calculator { 
+    width: 600px; 
+    height: 350px; 
+    background-color: cadetblue; 
+    position: fixed; 
+    left: 50%; 
+    top: 50%; 
+    transform: translateX(-50%) translateY(-50%); 
+    padding: 20px 0px 0px 00px; 
+    border-radius: 10px; 
+    color: darkgreen; 
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: self-start;
+
+}

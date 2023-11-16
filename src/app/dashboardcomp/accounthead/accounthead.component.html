@@ -1,0 +1,29 @@
+
+<header class="p-3 bg-dark text-white">
+  <div class="container-fluid">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        <img src="assets\image\7.jpeg" height="50px" width="auto" alt="">
+      </a>
+      <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="margin-left: 20px;">
+        <li><a href="#" class="nav-link px-2 text-white" style="font-size: 40px;"><b style="color: rgb(195, 195, 38);">Welcome Account Head</b></a></li>
+      </ul>
+      <div class="text-end">
+        <!-- <button type="button" routerLink="admin/re" class="btn btn-outline-light me-2">View Enquiry</button> -->
+        <button type="button" routerLink="/home/login" class="btn btn-outline-light me-2">Logout</button>
+      </div>
+    </div>
+  </div>
+  </header>
+<div class="container-fluid">
+<div class="row mb-3 d-flex">
+  <div style="height: 50px;" class="col-md-6 themed-grid-col colorchange" routerLink="account/approvesanction"><h5 align="center"><a class="active" >View approved sanction letters</a></h5></div>
+  <div class="col-md-6 themed-grid-col colorchange" routerLink="account/createledger"><h5 align="center"><a class="active" >All Loandisburse list</a></h5></div>
+ <!--  <div class="col-md-2 themed-grid-col colorchange"><h5 align="center"><a class="active" routerLink="admin/cibilapprove">CIBIL approved</a></h5></div>
+  <div class="col-md-2 themed-grid-col colorchange"><h5 align="center"><a class="active" routerLink="admin/cibilreject">CIBIL Rejected</a></h5></div>
+  <div class="col-md-2 themed-grid-col colorchange"><h5 align="center"><a class="active" routerLink="">View Application Status</a></h5></div> -->
+  <!-- <div class="col-md-2 themed-grid-col colorchange"><h5 align="center"><a class="active" routerLink="">CONTACT US</a></h5></div> -->
+</div>
+</div>
+<router-outlet></router-outlet>

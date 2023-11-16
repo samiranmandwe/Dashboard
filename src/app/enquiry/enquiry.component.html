@@ -1,0 +1,109 @@
+
+<!-- <pre>
+  <form [formGroup]="custReg" (ngSubmit)="onSubmit()" >
+    <input type="hidden" formControlName="eid" id="">
+    <input type="text" formControlName="fullname" placeholder="fname" id="">
+    <input type="number" formControlName="mobileNo" placeholder="mobile" id="">
+    <input type="submit">
+  </form>
+</pre> -->
+
+<!-- =================================== 00-->
+
+
+<section class="h-100" style="box-shadow: 2px 2px 33px 16px rgba(0,0,0,0.75); border-radius: 30px;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card-registration my-4">
+          <div class="row g-0">
+            <div class="col-xl-6 d-none d-xl-block">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img4.webp"
+                alt="Sample photo" class="img-fluid"
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+            </div>
+            <div class="col-xl-6">
+              <div class="card-body p-md-5 text-black">
+                <h3 class="mb-5 text-uppercase">Enquiry form</h3>
+
+
+                <form [formGroup]="custReg" (ngSubmit)="onSubmit()">
+                <div class="form-outline mb-4">
+                  <input type="text" formControlName="fullname" id="form3Example8" class="form-control form-control-lg" />
+                  <label class="form-label"  for="form3Example8">Full Name</label>
+                </div>
+
+                <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+
+                  <h6 class="mb-0 me-4">Gender: </h6>
+
+                  <div class="form-check form-check-inline mb-0 me-4">
+                    <input class="form-check-input" formControlName="gender" type="radio" name="inlineRadioOptions" id="femaleGender"
+                      value="female" />
+                    <label class="form-check-label" for="femaleGender">Female</label>
+                  </div>
+
+                  <div class="form-check form-check-inline mb-0 me-4">
+                    <input class="form-check-input" formControlName="gender" type="radio" name="inlineRadioOptions" id="maleGender"
+                      value="male" />
+                    <label class="form-check-label" for="maleGender">Male</label>
+                  </div>
+
+                  <div class="form-check form-check-inline mb-0">
+                    <input class="form-check-input" formControlName="gender" type="radio" name="inlineRadioOptions" id="otherGender"
+                      value="other" />
+                    <label class="form-check-label" for="otherGender">Other</label>
+                  </div>
+
+                </div>
+
+
+                <div class="form-outline mb-4">
+                  <input type="text" formControlName="age" id="form3Example9" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example9">Age</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example90" formControlName="mobileNo" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example90">mobileNo</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example99" formControlName="emailId" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example99">emailId</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example97" formControlName="pancardNo" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example97">pancardNo</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example97" formControlName="address" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example97">address</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example97" formControlName="uname" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example97">uname</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <input type="text" id="form3Example97" formControlName="password" class="form-control form-control-lg" />
+                  <label class="form-label" for="form3Example97">password</label>
+                </div>
+
+
+
+                <div class="d-flex justify-content-end pt-3">
+                  <button type="submit" class="btn btn-warning btn-lg ms-2">Submit form</button>
+                </div>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

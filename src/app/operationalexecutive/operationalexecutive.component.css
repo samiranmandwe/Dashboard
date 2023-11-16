@@ -1,0 +1,17 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+.colorchange:hover{
+  background-color: #04AA6D;
+  color: white;
+}
+
+h5{
+  margin-top: 10px;
+}
